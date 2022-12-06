@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        div.container {
+            background-image: url(./Assets/bandeira.jpg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="header">            
+                <button id="menu-button" onclick="openCloseSidebar()">
+                    <img src="./assets/menu.svg" alt="Menu">
+                </button>
+            </div>
+
+
+        
+           <div class="content">
+                <a href="./copa58.html">
+                    <img src="./assets/copa1958.jpg" alt="copa58">
+                    <p>Copa de 1958</p>
+                </a>
+
+                <a href="./copa62.html">
+                    <img src="./assets/copa1962.jpg" alt="copa62">
+                    <p>Copa de 1962</p>
+                </a>
+
+                <a href="./copa70.html">
+                    <img src="./assets/copa1970.jpg" alt="copa70">
+                    <p>Copa de 1970</p>
+                </a>
+
+                <a href="./copa94.html">
+                    <img src="./assets/copa1994.png" alt="copa94">
+                    <p>Copa de 1994</p>
+                </a>
+
+                <a href="./copa02.html">
+                    <img src="./assets/copa2002.png" alt="copa2002">
+                    <p>Copa de 2002</p>
+                </a>
+            </div>
+
+            <div class="footer">
+                <img class="avatar" src="./assets/perfil.jpeg" alt="
+                Foto do Igor Nascimento">
+
+                <span>
+                    <p>Igor Nascimento</p>
+                    <p>Desenvolvedor</p>
+                </span>
+
+                <button class="log-out" onclick="openCloseSidebar()">
+                    <a href="./index.html">
+                    <img src="./assets/log-out.svg" alt="Log-out">
+                </a>
+                </button>
+            </div>
+        </div>
+
+        <div class="main">
+            <h2>QUANTAS E QUAIS COPAS DO MUNDO O BRASIL GANHOU?</h2>
+            <p>Único pentacampeão mundial, a Seleção Brasileira está no Qatar em busca do tão esperado hexacampeonato da Copa do Mundo. Abaixo, o LANCE! relembra os cinco títulos do Brasil, marcados por diferentes gerações de craques. desde o Rei do Futebol até Ronaldo Fenômeno.</p>
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
